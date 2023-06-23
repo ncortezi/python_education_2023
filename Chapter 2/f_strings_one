@@ -1,0 +1,7 @@
+# you must put the f before the quotation like f"{var1} {var2}"
+
+first_name = "nick"
+last_name = "cortezi"
+full_name = f"{first_name} {last_name}"
+message = f"{full_name.title()} has logged on"
+print(message)
