@@ -59,3 +59,7 @@ print(len(cities))
 del cities[1]
 print(len(cities))
 print(cities)
+print('\n')
+for city in cities:
+	print(city.upper())
+	print('\n')
